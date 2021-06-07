@@ -22,7 +22,7 @@ const create = () => sequelize.queryInterface.createTable(
                 isEmail: true
             }
         },
-        'address': Sequelize.STRING,
+	'address': Sequelize.STRING,
         'secondary_address': Sequelize.STRING,
         'firstname': Sequelize.STRING,
         'lastname': Sequelize.STRING

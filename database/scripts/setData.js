@@ -1,7 +1,7 @@
 const Customer = require('../model/customer'); 
 const setData = async () => {
-    for (let i = 50; i < 60; i++) {
-        await Customer.create(
+		for (let i = 3; i < 20; i++) {
+		await Customer.create(
             {
                 account_name: `Test-${i + 1}`,
                 phone: '+420231231220',
@@ -15,7 +15,6 @@ const setData = async () => {
             }
         );
     }
-
     return process.exit(-1);
 };
 

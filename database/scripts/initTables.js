@@ -1,5 +1,4 @@
-const customerTable = require('../table/customers');
-
+const customerTable = require('../table/customers'); 
 const removeTables = () => {
     return customerTable.remove();
 };
